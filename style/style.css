@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.nav_li {
+  display:inline-block;
+}
+
+.nav_li:not(:last-of-type) {
+  margin-right: 90px;
+}
+
+.nav_link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  color: #FA4A0C;
+}
+
+.app {
+  background-image: url('../img/bg_1.png');
+  color: white;
+  text-align: center;
+  padding: 80px 0 162px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app_pretitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.app_title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.app_text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 54px;
+}
+
+.button {
+  width: 236px;
+  height: 68px;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.button:first-of-type{
+  background: #FA4A0C;
+  border: 1px solid #FA4A0C;
+  margin-right: 67px;
+}
+
+.button:last-of-type {
+  background: none;
+  border: 1px solid white;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin-top: 36px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 79px;
+}
+
+.mobile_pretitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+  margin-bottom: 17px;
+}
+
+.mobile_title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+   color: #252B42;
+   max-width: 561px;
+   margin-bottom: 17px;
+}
+
+.mobile_text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  max-width: 467px;
+}
+
+.mobile2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 190px;
+}
+
+.mobile2_pretitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+  margin-bottom: 17px;
+}
+
+.mobile2_title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  max-width: 480px;
+  margin-bottom: 17px;
+}
+
+.mobile2_text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  max-width: 462px;
+}
+
+.app2 {
+  background-image: url('../img/bg_2.png');
+  color: white;
+  text-align: center;
+  padding: 131px 0 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 78px;
+}
+
+.app2_title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.app2_text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 59px;
+}
+
+.app2_button {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 10px;
+}
+
+.app2_button:first-of-type {
+  width: 142px;
+  height: 64px;
+  background: #FA4A0C;
+  border: 1px solid #FA4A0C;
+  margin-right: 16px;
+}
+
+.app2_button:last-of-type {
+  width: 173px;
+  height: 60px;
+  background: none;
+  border: 1px solid white;
+}
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+.footer_text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #5C5C5C;
+}
